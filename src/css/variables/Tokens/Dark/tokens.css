@@ -1,0 +1,82 @@
+@import '../../Primitive/Color/Brand.css';
+@import '../../Primitive/Color/Accent.css';
+@import '../../Primitive/Color/Neutral.css';
+@import '../../Primitive/Color/Feedback.css';
+
+.dark {
+  /* Base */
+  --base-bg: var(--color-neutral-400);
+  --base-fg: var(--color-neutral-300);
+  --base-border: var(--color-neutral-300);
+  --base-text: var(--color-neutral-10);
+  --base-para-text-color: var(--color-neutral-20);
+  --base-icon: var(--color-neutral-40);
+  --base-link: var(--color-brand-100);
+  --base-heading-text-color: var(--color-neutral-5);
+  --base-sub-text-color: var(--color-neutral-60);
+  --base-light-text-color: var(--color-neutral-100);
+
+  --action-ghost-default: transparent;
+
+  /* Action — primary */
+  --action-primary-default: var(--color-neutral-0);
+  --action-primary-hover: var(--color-neutral-5);
+  --action-primary-press: var(--color-neutral-20);
+  --action-primary-disable: var(--color-neutral-300);
+  --action-primary-text: var(--color-neutral-400);
+  --action-primary-text-disable: var(--color-neutral-40);
+
+  /* Action — secondary */
+  --action-secondary-default: var(--color-brand-100);
+  --action-secondary-hover: var(--color-brand-200);
+  --action-secondary-press: var(--color-brand-300);
+  --action-secondary-disable: var(--color-neutral-300);
+  --action-secondary-text: var(--color-neutral-400);
+  --action-secondary-text-disable: var(--color-neutral-70);
+
+  /* Action — neutral */
+  --action-neutral-default: var(--color-brand-500);
+  --action-neutral-hover: var(--color-neutral-300);
+  --action-neutral-press: var(--color-neutral-300);
+  --action-neutral-disable: var(--color-neutral-90);
+  --action-neutral-text: var(--color-brand-500);
+  --action-neutral-disable-text: var(--color-neutral-70);
+
+  /* Action — ghost */
+  --action-ghost-border: var(--color-neutral-200);
+  --action-ghost-hover: var(--color-neutral-300);
+  --action-ghost-press: var(--color-neutral-300);
+  --action-ghost-disable: var(--color-neutral-90);
+  --action-ghost-text: var(--color-neutral-20);
+  --action-ghost-text-disable: var(--color-neutral-70);
+
+  /* Form */
+  --form-text: var(--color-neutral-20);
+  --form-placeholder: var(--color-neutral-90);
+  --form-border: var(--color-neutral-70);
+  --form-selected: var(--color-brand-100);
+  --form-hover: var(--color-neutral-50);
+  --form-error: var(--color-error-strong);
+  --form-success: var(--color-success-strong);
+  --form-error-bg: var(--color-error-soft);
+  --form-disable: var(--color-neutral-200);
+  --form-selected-color: var(--color-neutral-10);
+  --form-disable-selected: var(--color-neutral-400);
+  --form-disable-text: var(--color-neutral-70);
+
+  /* Cards */
+  --cards-bg: var(--color-neutral-400);
+  --cards-hover: var(--color-neutral-300);
+  --cards-text: var(--color-neutral-10);
+  --cards-border: var(--color-neutral-200);
+  --cards-icon: var(--color-neutral-70);
+  --cards-link: var(--action-secondary-default);
+
+  /* Logo */
+  --logo-primary: var(--color-neutral-0);
+  --logo-secondary: var(--color-neutral-0);
+  --logo-text: var(--color-neutral-0);
+
+  /* Overlay */
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+}

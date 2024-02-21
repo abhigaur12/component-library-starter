@@ -1,0 +1,13 @@
+@import '../css/variables/Tokens/index.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=optional');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: 'Inter', sans-serif !important;
+  }
+}

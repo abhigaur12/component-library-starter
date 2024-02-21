@@ -1,0 +1,13 @@
+/* Primary brand palette — customize these values for your product */
+:root {
+  --color-brand-50: #f6f8fe;
+  --color-brand-100: #bfd1f8;
+  --color-brand-200: #628fee;
+  --color-brand-300: #1753d4;
+  --color-brand-400: #0d2f78;
+  --color-brand-500: #141416;
+  --color-brand-600: #0c0c0d;
+  --color-brand-700: #070708;
+  --color-brand-800: #040405;
+  --color-brand-900: #000000;
+}

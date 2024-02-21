@@ -1,0 +1,120 @@
+@import '../../Primitive/Color/Brand.css';
+@import '../../Primitive/Color/Accent.css';
+@import '../../Primitive/Color/Neutral.css';
+@import '../../Primitive/Color/Feedback.css';
+
+:root {
+  /* Base */
+  --base-bg: var(--color-neutral-0);
+  --base-fg: var(--color-neutral-5);
+  --base-border: var(--color-neutral-10);
+  --base-text: var(--color-neutral-100);
+  --base-para-text-color: var(--color-neutral-100);
+  --base-icon: var(--color-neutral-70);
+  --base-link: var(--color-brand-500);
+  --base-heading-text-color: var(--color-neutral-300);
+  --base-sub-text-color: var(--color-neutral-70);
+  --base-light-text-color: var(--color-neutral-40);
+
+  /* Action — ghost (transparent default) */
+  --action-ghost-default: transparent;
+
+  /* Action — primary */
+  --action-primary-default: var(--color-brand-500);
+  --action-primary-hover: var(--color-brand-400);
+  --action-primary-press: var(--color-brand-300);
+  --action-primary-disable: var(--color-neutral-10);
+  --action-primary-text: var(--color-neutral-0);
+  --action-primary-text-disable: var(--color-neutral-40);
+
+  /* Action — secondary */
+  --action-secondary-default: var(--color-accent-500);
+  --action-secondary-hover: var(--color-accent-600);
+  --action-secondary-press: var(--color-accent-700);
+  --action-secondary-disable: var(--color-neutral-10);
+  --action-secondary-text: var(--color-neutral-0);
+  --action-secondary-text-disable: var(--color-neutral-40);
+
+  /* Action — neutral */
+  --action-neutral-default: var(--color-brand-500);
+  --action-neutral-hover: var(--color-brand-400);
+  --action-neutral-press: var(--color-brand-300);
+  --action-neutral-disable: var(--color-neutral-20);
+  --action-neutral-text: var(--color-brand-500);
+  --action-neutral-disable-text: var(--color-neutral-40);
+
+  /* Action — ghost */
+  --action-ghost-border: var(--color-neutral-50);
+  --action-ghost-hover: var(--color-neutral-5);
+  --action-ghost-press: var(--color-neutral-10);
+  --action-ghost-disable: var(--color-neutral-20);
+  --action-ghost-text: var(--color-neutral-80);
+  --action-ghost-text-disable: var(--color-neutral-40);
+
+  /* Action — semantic */
+  --action-success-default: var(--color-success-base);
+  --action-success-hover: var(--color-success-strong);
+  --action-success-press: var(--color-success-strong);
+  --action-success-text: var(--color-neutral-0);
+
+  --action-warning-default: var(--color-warning-base);
+  --action-warning-hover: var(--color-warning-strong);
+  --action-warning-press: var(--color-warning-strong);
+  --action-warning-text: var(--color-neutral-0);
+
+  --action-error-default: var(--color-error-base);
+  --action-error-hover: var(--color-error-strong);
+  --action-error-press: var(--color-error-strong);
+  --action-error-text: var(--color-neutral-0);
+
+  /* Form */
+  --form-text: var(--color-neutral-100);
+  --form-placeholder: var(--color-neutral-50);
+  --form-border: var(--color-neutral-30);
+  --form-selected: var(--color-brand-500);
+  --form-hover: var(--color-neutral-60);
+  --form-error: var(--color-error-base);
+  --form-success: var(--color-success-base);
+  --form-error-bg: var(--color-error-soft);
+  --form-disable: var(--color-neutral-40);
+  --form-selected-color: var(--color-neutral-0);
+  --form-disable-selected: var(--color-neutral-5);
+  --form-disable-text: var(--color-neutral-30);
+
+  /* Feedback */
+  --feedback-default-bg: var(--color-neutral-5);
+  --feedback-default-text: var(--color-neutral-70);
+  --feedback-default-cross: var(--color-neutral-100);
+  --feedback-error-bg: var(--color-error-soft);
+  --feedback-error-text: var(--color-error-base);
+  --feedback-error-cross: var(--color-neutral-100);
+  --feedback-info-bg: var(--color-info-soft);
+  --feedback-info-text: var(--color-info-text);
+  --feedback-info-cross: var(--color-neutral-100);
+  --feedback-success-bg: var(--color-success-soft);
+  --feedback-success-text: var(--color-success-strong);
+  --feedback-success-cross: var(--color-neutral-100);
+  --feedback-warning-bg: var(--color-warning-soft);
+  --feedback-warning-text: var(--color-warning-strong);
+  --feedback-warning-cross: var(--color-neutral-100);
+
+  /* Cards */
+  --cards-bg: var(--color-neutral-0);
+  --cards-hover: var(--color-neutral-5);
+  --cards-text: var(--color-neutral-100);
+  --cards-border: var(--color-neutral-30);
+  --cards-icon: var(--color-neutral-70);
+  --cards-link: var(--action-primary-default);
+
+  /* Logo (customize for your brand) */
+  --logo-primary: var(--color-brand-500);
+  --logo-secondary: var(--color-accent-500);
+  --logo-text: var(--color-brand-500);
+
+  /* Overlay */
+  --overlay-bg: rgba(9, 30, 66, 0.31);
+
+  /* Gradients (optional — customize or remove) */
+  --gradient-1: linear-gradient(135deg, var(--color-brand-300), var(--color-brand-500));
+  --gradient-2: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-600));
+}

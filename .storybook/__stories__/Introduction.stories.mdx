@@ -1,0 +1,39 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Introduction" />
+
+# Component Library Starter
+
+A starter template for building your own React component library with TypeScript, Tailwind CSS, design tokens, and Storybook.
+
+## Getting started
+
+1. Clone this repository and install dependencies with `yarn install`.
+2. Run Storybook locally: `yarn storybook`.
+3. Customize design tokens in `src/css/variables/`.
+4. Add or modify components in `src/components/`.
+5. Update `package.json` name and publish when ready.
+
+## Example components
+
+This starter includes six example components to demonstrate patterns:
+
+- **Button** — variants, sizes, loading, and icons
+- **TextInput** — form input with validation states
+- **Checkbox** — checked, indeterminate, and error states
+- **Badge** — status and feedback labels
+- **Modal** — dialogs with headers, footers, and confirmation types
+- **Link** — text links with variants
+
+## Usage in your app
+
+```jsx
+import { Button, TextInput } from '@your-org/ui-library';
+import '@your-org/ui-library/dist/css/index.css';
+
+function App() {
+  return <Button buttonType="primary" label="Click me" onClick={() => {}} />;
+}
+```
+
+See the README for Tailwind preset setup and token customization.
